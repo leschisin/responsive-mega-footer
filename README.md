@@ -1,1 +1,0 @@
-# responsive-mega-footer
