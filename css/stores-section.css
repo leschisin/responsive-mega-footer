@@ -1,0 +1,156 @@
+#stores-section {
+    margin-top: 30px;
+    background: #C70A4C;
+    max-width: 1600px;
+    line-height: normal;
+}
+@media (min-width: 992px) {
+    #stores-section {
+        margin-top: 90px;
+    }
+}
+#stores-section .container-fluid {
+    max-width: 1600px;
+}
+#stores-section .flex {
+    display: flex;
+}
+#stores-section .flex.v-align {
+    align-items: center;
+    justify-content: center;
+}
+#stores-section .intro {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    max-width: 500px;
+    font-size: calc(25px + (40 - 25) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+    #stores-section .intro {
+        font-size: 40px;
+    }
+}
+#stores-section .desc {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    max-width: 600px;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+#stores-section .stores-cta {
+    display: inline-block;
+    color: #FFC462;
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    text-decoration: none;
+}
+@media (min-width: 1600px) {
+    #stores-section .stores-cta {
+        font-size: 20px;
+    }
+}
+#stores-section .stores-cta i {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+    #stores-section .stores-cta i {
+        font-size: 16px;
+    }
+}
+#stores-section .stores-btn {
+    padding: 10px 25px;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    color: #666666;
+    border-radius: 0;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    #stores-section .stores-btn {
+        text-align: left;
+    }
+}
+@media (min-width: 1600px) {
+    #stores-section .stores-btn {
+        font-size: 18px;
+    }
+}
+#stores-section .stores-btn i {
+    margin-left: 5px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+    #stores-section .stores-btn i {
+        font-size: 16px;
+    }
+}
+#stores-section .mobile-headline {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+#stores-section .stores-mobile {
+    padding-bottom: 45px;
+}
+#selectLocationModal {
+    z-index: 10000
+}
+@media (min-width:768px) {
+    .modal-open {
+        padding-right: 0!important
+    }
+    #selectLocationModal .modal-dialog {
+        width: 100%;
+        max-width: 700px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto
+    }
+}
+#selectLocationModal .modal-header {
+    background: #f1f1f1;
+    color: #333;
+    padding: 15px 25px
+}
+#selectLocationModal .modal-header .close {
+    margin-top: 2px
+}
+#selectLocationModal .modal-title {
+    font-weight: 600
+}
+#selectLocationModal .modal-body {
+    padding: 15px 0
+}
+#selectLocationModal .select-location {
+    display: block;
+    padding: 7px 25px;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+#selectLocationModal .select-location:hover {
+    color: #c70a4c;
+    background: #f8f8f8
+}
+@media (min-width:1600px) {
+    #selectLocationModal .select-location {
+        font-size: 16px
+    }
+}
+#selectLocationModal .select-location span {
+    font-weight: 300
+}
+#selectLocationModal .international {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 300;
+    margin-top: 10px;
+    padding-left: 10px
+}
+.modal-backdrop {
+    z-index: 7500;
+}

@@ -1,0 +1,252 @@
+#news-and-debuts {
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    #news-and-debuts {
+        margin-top: 90px;
+    }
+}
+#news-and-debuts .no-padding {
+    padding: 0;
+}
+#news-and-debuts.container-fluid {
+    max-width: 1600px;
+}
+#news-and-debuts .carousel {
+    margin: 0 auto;
+}
+#news-and-debuts .carousel-inner {
+    margin-bottom: 50px;
+}
+#news-and-debuts .carousel-inner .main-title,
+#news-and-debuts .carousel-inner .main-sub,
+#news-and-debuts .main-link {
+    max-width: 794px;
+    margin: 0 auto;
+    color: #333333;
+}
+#news-and-debuts .carousel-inner .main-title {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1600 - 320)));
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel-inner .main-title {
+        font-size: 30px;
+    }
+}
+#news-and-debuts .carousel-inner .main-sub {
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    margin-bottom: 30px;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel-inner .main-sub {
+        font-size: 18px;
+    }
+}
+#news-and-debuts .carousel-inner .main-link {
+    margin-bottom: 15px;
+}
+#news-and-debuts .carousel-inner .main-link a {
+    color: #C70A4C;
+    font-weight: 600;
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+    text-decoration: none;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel-inner .main-link a {
+        font-size: 20px;
+    }
+}
+#news-and-debuts .carousel-inner .main-link a i {
+    font-size: 16px;
+    margin-left: 2px;
+}
+#news-and-debuts .carousel-inner .sku-item {
+    margin-bottom: 30px;
+}
+#news-and-debuts .carousel-inner .sku-title {
+    max-width: 254px;
+    margin: 0 auto;
+}
+#news-and-debuts .carousel-inner .sku-title a {
+    color: #333333;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    margin-top: 5px;
+    text-decoration: none;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel-inner .sku-title a {
+        font-size: 18px;
+    }
+}
+#news-and-debuts .carousel-indicators {
+    bottom: -50px;
+}
+#news-and-debuts .carousel-indicators li {
+    border: none;
+    background-color: #CACACA;
+    margin: 0 5px;
+}
+#news-and-debuts .carousel-indicators .active {
+    background-color: #C70A4C;
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+}
+#news-and-debuts .carousel-control {
+    width: auto;
+    color: #666666 !important;
+    text-shadow: initial;
+    opacity: 1 !important;
+    background: none;
+}
+#news-and-debuts .carousel-control.left {
+    left: -5%;
+}
+#news-and-debuts .carousel-control.right {
+    right: -5%;
+}
+#news-and-debuts .carousel-control.left span,
+#news-and-debuts .carousel-control.right span {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+#news-and-debuts .carousel-control.left span:hover {
+    background: #F1F1F1;
+}
+#news-and-debuts .carousel-control.right span:hover {
+    background: #F1F1F1;
+}
+#news-and-debuts .glyphicon-chevron-left::before,
+#news-and-debuts .glyphicon-chevron-right::before {
+    position: relative;
+    top: 18%;
+}
+#news-and-debuts .carousel-outer {
+    padding: 0 8%;
+}
+#news-and-debuts .headline {
+    font-size: calc(25px + (40 - 25) * ((100vw - 320px) / (1600 - 320)));
+    color: #333333;
+    margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+    #news-and-debuts .headline {
+        margin-bottom: 45px;
+    }
+}
+@media(min-width: 1600px) {
+    #news-and-debuts .headline {
+        font-size: 40px;
+
+    }
+}
+#news-and-debuts .mb-15 {
+    margin-bottom: 15px;
+}
+#news-and-debuts .ml-30 {
+    margin-left: 30px;
+}
+#news-and-debuts .pl-30 {
+    padding-left: 30px;
+}
+#news-and-debuts .flex-item {
+    display: flex;
+}
+#news-and-debuts .flex-item .flex-50 {
+    width: 50%;
+}
+#news-and-debuts .flex-item .flex-50.v-flex {
+    display: flex;
+    align-items: center;
+}
+#news-and-debuts .carousel .item {
+    border-bottom: 1px solid #CACACA;
+}
+#news-and-debuts .carousel .category {
+    display: inline-block;
+    margin-bottom: 2vw;
+    text-decoration: none;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel .category {
+        margin-bottom: 45px;
+    }
+}
+#news-and-debuts .carousel .category .category-title {
+    margin-top: 15px;
+    color: #333333;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel .category .category-title {
+        font-size: 18px;
+    }
+}
+#news-and-debuts .carousel .category .category-desc {
+    margin-top: 2px;
+    color: #333333;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+    #news-and-debuts .carousel .category .category-desc {
+        font-size: 18px;
+    }
+}
+#news-and-debuts .featured-mobile {
+    max-width: 600px;
+    margin: 15px auto 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CACACA;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (991 - 320)));
+}
+#news-and-debuts .featured-mobile .col-xs-4,
+#news-and-debuts .featured-mobile .col-xs-8 {
+    padding: 0;
+}
+#news-and-debuts .featured-mobile .pl-15 {
+    padding-left: 15px;
+}
+#news-and-debuts .featured-mobile p {
+    margin-bottom: 2px;
+}
+#news-and-debuts .featured-mobile .featured-mobile-link {
+    color: #C70A4C;
+    font-weight: 600;
+    text-decoration: none;
+}
+#news-and-debuts .featured-mobile .featured-mobile-link i {
+    font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (991 - 320)));
+}
+#news-and-debuts .categories-mobile {
+    max-width: 600px;
+    margin: 15px auto 0 auto;
+    border-bottom: 1px solid #CACACA;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (991 - 320)));
+    font-weight: 600;
+    text-align: center;
+}
+#news-and-debuts .categories-mobile .col-xs-6,
+#news-and-debuts .categories-mobile .col-xs-12 {
+    padding: 0;
+    margin-bottom: 15px;
+}
+#news-and-debuts .categories-mobile .left {
+    padding-right: 15px;
+}
+#news-and-debuts .categories-mobile .right {
+    padding-left: 15px;
+}
+#news-and-debuts .categories-mobile .category-btn {
+    border: 1px solid #C70A4C;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #C70A4C;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (991 - 320)));
+    font-weight: 600;
+}

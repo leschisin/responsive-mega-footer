@@ -1,0 +1,150 @@
+/***************
+** TYPOGRAPHY **
+***************/
+
+/* SIZES */
+.font-50-30 {
+	font-size: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-40-25 {
+	font-size: calc(25px + (40 - 25) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-30-20 {
+	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-23-18 {
+	font-size: calc(18px + (23 - 18) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-20-18 {
+	font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-18-16 {
+	font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+.font-16-14 {
+	font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+	.font-50-30-semi {
+		font-size: 50px;
+	}
+	.font-40-25 {
+		font-size: 40px;
+	}
+	.font-30-20 {
+		font-size: 30px;
+	}
+	.font-23-18 {
+		font-size: 23px;
+	}
+	.font-20-18 {
+		font-size: 20px;
+	}
+	.font-18-16 {
+		font-size: 18px;
+	}
+	.font-16-14 {
+		font-size: 16px;
+	}
+}
+
+/* WEIGHTS */
+.font-bold {
+	font-weight: 700;
+}
+.font-semibold {
+	font-weight: 600;
+}
+.font-regular {
+	font-weight: 400;
+}
+.font-light {
+	font-weight: 300;
+}
+
+/************
+** BUTTONS **
+************/
+.ag-btn-outline {
+	display: inline-block;
+	border: 1px solid #c70a4c;
+	padding: 5px 20px;
+	background: #ffffff;
+	color: #c70a4c;
+	font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+	font-weight: 600;
+	text-decoration: none;
+}
+.ag-btn-outline:link,
+.ag-btn-outline:visited,
+.ag-btn-outline:hover,
+.ag-btn-outline:active {
+	color: #c70a4c;
+	text-decoration: none;
+}
+.ag-btn-solid {
+	display: inline-block;
+	border: 1px solid #c70a4c;
+	padding: 5px 20px;
+	background: #c70a4c;
+	color: #ffffff;
+	font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+	font-weight: 600;
+	text-decoration: none;
+}
+.ag-btn-solid:link,
+.ag-btn-solid:visited,
+.ag-btn-solid:hover,
+.ag-btn-solid:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+@media (min-width: 992px) {
+	.ag-btn-outline {
+		padding: 10px 30px;
+	}
+	.ag-btn-solid {
+		padding: 10px 30px;
+	}
+}
+@media (min-width: 1600px) {
+	.ag-btn-outline {
+		font-size: 20px;
+	}
+	.ag-btn-solid {
+		font-size: 20px;
+	}
+}
+
+/********************
+** MARGINS/PADDING **
+********************/
+.no-margin {
+	margin: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-30-15 {
+	margin-bottom: 15px;
+}
+.mb-45-30 {
+	margin-bottom: 30px;
+}
+.mb-60-45 {
+	margin-bottom: 45px;
+}
+@media (min-width: 992px) {
+	.mb-30-15 {
+		margin-bottom: 30px;
+	}
+	.mb-45-30 {
+		margin-bottom: 45px;
+	}
+	.mb-60-45 {
+		margin-bottom: 60px;
+	}
+}

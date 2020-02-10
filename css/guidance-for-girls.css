@@ -1,0 +1,106 @@
+#guidance-for-girls {
+    max-width: 1450px;
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    #guidance-for-girls {
+        margin-top: 90px;
+    }
+}
+#guidance-for-girls .no-padding {
+    padding: 0;
+}
+#guidance-for-girls .headline {
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 - 320)));
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+    #guidance-for-girls .headline {
+        font-weight: 400;
+    }
+}
+@media(min-width: 1600px) {
+    #guidance-for-girls .headline {
+        font-size: 40px;
+    }
+}
+#guidance-for-girls .sub-headline {
+    color: #333333;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    margin-bottom: 60px;
+}
+#guidance-for-girls .guidance-item {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+@media (min-width: 992px) {
+    #guidance-for-girls .guidance-item {
+        margin-bottom: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+#guidance-for-girls .guidance-item .guidance-link {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #C70A4C;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+}
+@media (min-width: 1600px) {
+    #guidance-for-girls .guidance-item .guidance-link {
+        font-size: 18px;
+    }
+}
+#guidance-for-girls .guidance-item .guidance-link i {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1600 - 320)));
+    margin-left: 2px;
+}
+@media (min-width: 1600px) {
+    #guidance-for-girls .guidance-item .guidance-link i {
+        font-size: 16px;
+    }
+}
+#guidance-for-girls .guidance-item .guidance-link span {
+    display: inline-block;
+}
+#guidance-for-girls .guidance-featured {
+    display: inline-block;
+    position: relative;
+}
+#guidance-for-girls .guidance-featured .featured-cta {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 10px 25px;
+    border: 1px solid #FFFFFF;
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+@media (min-width: 1600px) {
+    #guidance-for-girls .guidance-featured .featured-cta {
+        font-size: 20px;
+    }
+}
+#guidance-for-girls .guidance-featured .featured-text {
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    padding: 10px 0;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    color: #FFFFFF;
+    max-width: 75%;
+}
+@media (min-width: 1600px) {
+    #guidance-for-girls .guidance-featured .featured-text {
+        font-size: 18px;
+    }
+}

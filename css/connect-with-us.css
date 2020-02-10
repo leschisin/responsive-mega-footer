@@ -1,0 +1,73 @@
+#connect-with-us {
+    margin-top: 30px;
+    max-width: 1600px;
+}
+@media (min-width: 992px) {
+    #connect-with-us {
+        margin-top: 90px;
+    }
+}
+#connect-with-us .headline {
+    font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 - 320)));
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+@media (min-width: 992px) {
+    #connect-with-us .headline {
+        font-weight: 400;
+    }
+}
+@media(min-width: 1600px) {
+    #connect-with-us .headline {
+        font-size: 40px;
+    }
+}
+#connect-with-us .sub-headline {
+    color: #333333;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1600 - 320)));
+    margin-bottom: 60px;
+}
+#connect-with-us .connect-hash {
+    margin-bottom: 15px;
+}
+#connect-with-us .connect-hash .fa-instagram {
+    margin-right: 7px;
+}
+@media (min-width: 992px) {
+    #connect-with-us .connect-hash .fa-instagram {
+        margin-right: 15px;
+    }
+}
+#connect-with-us .connect-hash span {
+    color: #666666;
+    font-weight: 600;
+    font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+@media (min-width: 1600px) {
+    #connect-with-us .connect-hash span {
+        font-size: 20px;
+    }
+}
+#connect-with-us .social-icons {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+@media (min-width: 992px) {
+    #connect-with-us .social-icons {
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+}
+#connect-with-us .social-icons a {
+    display: inline-block;
+    margin: 0 15px;
+    color: #666666;
+    font-size: 25px;
+}
+@media (min-width: 992px) {
+    #connect-with-us .social-icons a {
+        margin: 0 30px;
+        font-size: 35px;
+    }
+}
